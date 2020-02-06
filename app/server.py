@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1X6nFWagq2LEDuCI5rwfHX45UE-MYSQuL'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1wgQmo--wm5wXg9IHcS5ixNLAxdSxgBUX'
 export_file_name = 'export.pkl'
 
 classes = ['Melanocytic nevi', 'Melanoma', 'Benign keratosis', 'Basal cell carcinoma', 'Actinic keratoses', 'Vascular lesions', 'Dermatofibroma']
